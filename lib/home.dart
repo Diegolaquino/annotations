@@ -1,6 +1,5 @@
 import 'package:annotations/annotation.dart';
 import 'package:flutter/material.dart';
-import 'package:sqflite/sqflite.dart';
 import 'package:annotations/DataBase.dart';
 
 class Home extends StatefulWidget {
@@ -104,7 +103,7 @@ class _HomeState extends State<Home> {
   @override
   void initState(){
     super.initState();
-    _recuperarAnotacoes();
+    //_recuperarAnotacoes();
   }
 
   @override
